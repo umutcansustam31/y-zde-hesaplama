@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <table>
+        <tbody>
+        <tr><th colspan="2" >YÜZDE HESAPLAMA</th>
+        </tr>
+        <tr>
+        <td><select id="islem"><option value="a">A sayısının %B&#8217;si kaçtır?</option><option value="b">A sayısı B sayısının % kaçıdır?</option><option value="c">A sayısından B sayısına değişim oranı?</option><option value="d">A sayısını %B artırırsak sonuç?</option><option value="e">A sayısı %B azaltırsak sonuç?</option></select></td>
+        </tr>
+        <tr>
+        <h3>A Sayısı <br>B Sayısı</h3>
+        <td><input id="a_sayisi" type="number" /></td>
+        </tr>
+        <tr>
+        <h3></h3>
+        <td><input id="b_sayisi" type="number" /></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td><input type="button" value="Hesapla" onClick="hesapla()" /></td>
+        </tr>
+        </tbody>
+        </table>
+        </form>
+        <p id="demo">
+</body>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+</html>
